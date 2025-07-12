@@ -1,32 +1,33 @@
+html {
+    background-color: hsl(212, 45%, 89%);;
+}
+
 body {
     font-family: 'Outfit', sans-serif;
-    background-color: hsl(212, 45%, 89%);
+    background-color: white;
+    width: 300px;
+    padding: 1em;
+    padding-bottom: 2em;
+    margin: 0 auto;
+    border-radius: 15px;
     text-align: center;
 }
 
-.content {
-    width: 300px;
-    max-width: 100%;
-    padding: 1em;
-    padding-bottom: 2em;
-    background-color: white;
-    margin: 1em auto;
-    border-radius: 15px;
-}
-
 img {
+    display: block;
     max-width: 100%;
     border-radius: 10px;
+    margin: 0 auto;
 }
 
-h1 {
+.first-layer {
     font-size: 23px;
     font-weight: 700;
     color: hsl(218, 44%, 22%);
 }
 
-h2 {
+.second-layer {
     font-size: 15px;
     font-weight: 400;
-    color: hsl(216, 15%, 48%)
+    color: hsl(216, 15%, 48%);
 }
