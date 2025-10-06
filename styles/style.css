@@ -12,26 +12,29 @@ body {
 
 main {
     background-color: white;
-    width: 300px;
+    max-width: 320px;
     padding: 1em;
     border-radius: 15px;
     text-align: center;
 }
 
 img {
+    display: block;
     max-width: 100%;
     border-radius: 10px;
-    margin: 0 auto;
 }
 
-h1 {
+h2 {
     font-size: 23px;
     font-weight: 700;
     color: hsl(218, 44%, 22%);
+    padding: 0 10px;
 }
 
 p {
     font-size: 15px;
     font-weight: 400;
     color: hsl(216, 15%, 48%);
+    padding:0 30px;
+    padding-bottom: 10px;
 }
